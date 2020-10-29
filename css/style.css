@@ -1,0 +1,96 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+body{
+    background-color: darkred;
+}
+#header-nav{
+border:0;
+background-color: #f6b319;
+border-radius: 0;
+
+}
+.container-fluid{
+    height:80px;
+}
+.navbar-brand{
+    padding-top: 30px;
+}
+
+.navbar-brand h1{
+    
+  margin-top: -5px;
+  color:#557c19;
+  font-weight: bold  ;
+  text-shadow: 1px 1px;
+  line-height: .75;
+  padding-bottom:5px;
+  font-family: 'Grandstander', cursive;
+  }
+.navbar button{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+
+#navbar-list a {
+    font-weight: bold;
+    color: pink;
+    font-size: 1.2em;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navbar-list a:hover {
+    color: #E7E7E7;
+    
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #557c19;
+}
+#catagories{
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bold;
+    text-shadow: 1px 1px; 
+     
+    
+   }
+#main-content {
+    
+    font-family: monospace;
+    width: auto;
+    margin: 10px;
+    border: 2px bold black;
+
+    
+}
+#main-content h3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px;
+    
+}
+
+#main-content #one{ 
+  margin-top:10px;
+  background-color: coral;
+  border: 2px solid black;
+  box-shadow: 0px 0px 50px greenyellow;
+  
+}
+
+#one p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ 
